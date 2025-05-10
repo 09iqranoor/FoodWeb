@@ -33,7 +33,7 @@ const Expertise = () => {
           viewport={{once:true}}
           transition={{duration:0.5, delay:0.5}}
         
-        className='my-8 text-center text-3xl tracking-tighter lg:text-4xl '>Our Expertise</motion.h2>
+        className='my-8 text-center text-3xl tracking-tighter lg:text-4xl  text-white'>Our Expertise</motion.h2>
         <motion.div
         initial="hidden"
         whileInView="show"
@@ -46,7 +46,7 @@ const Expertise = () => {
                    varients={{Itemvarients}}
                    
                    
-                   key={index} className='flex items-center border-b-4 border-doted border-neutral-700/40 py-2'>
+                   key={index} className='text-white flex items-center border-b-4 border-doted border-neutral-700/40 py-2'>
                     <div className='flex-shrink-0 pr-8 text-2xl'>{cusine.number}</div>
                     <div className='w-1/3 flex-shrink-0'>
                       <img src={cusine.image} alt={ cusine.title} className='h-auto rounded-3xl   transition-all duration-300 hover:lg:-rotate-3 cursor-pointer hover:shadow-lg hover:shadow-rose-400  ' />

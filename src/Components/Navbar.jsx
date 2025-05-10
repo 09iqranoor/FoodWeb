@@ -39,7 +39,7 @@ const Navbar = () => {
       });
     }
 
-    setISMobileMenuOpen(false);
+    setISMobileMenuOpen(false);    
   };
 
   return (

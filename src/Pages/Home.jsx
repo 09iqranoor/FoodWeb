@@ -9,11 +9,14 @@ import About from '../Components/About'
 import Review from "../Components/Review"
 import Mission  from '../Components/Mission'
 import ContactSection from "../Components/ContactSection"
+import Expertise from "../Components/Expertise"
 import Footer from "../Components/Footer"
 const Home = () => {
   return (
     <>
     <Navbar />
+
+
     
   <Hero />
         <CatagoryMenu />
@@ -21,6 +24,7 @@ const Home = () => {
     <Cart/>
     <About/>
 <Mission/>
+<Expertise/>
   <Review/>
 <ContactSection/>
 <Footer/>

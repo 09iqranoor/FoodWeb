@@ -14,14 +14,14 @@ const ItemCart = ({id , price, img, qty, name} ) => {
   return (
     <div className='flex gap-4 shadow-md rounded-lg p-7 mb-11'>
                  <MdDelete   
-                
+                       
                  onClick = {()=> {
                   dispatch(removeFromCart({id, img, name, price , qty})
                 )
                 toast(`${name} Removed!..`, {
                   icon: "😪"
                 });
-                
+                 
                  }}
                 
                   className='absolute right-3 text-red-600  cursor-pointer'/>
@@ -41,7 +41,7 @@ const ItemCart = ({id , price, img, qty, name} ) => {
      </div>
 
     </div>
-  )
+  ) 
 }
 
 export default ItemCart

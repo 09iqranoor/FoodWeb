@@ -1,7 +1,8 @@
 import React from 'react'
 import missionImg from "../assets/mission.jpeg"
 import mission from "../assets/mission.mp4"
-import { MISSION } from '../constants'
+// import { MISSION } from '../constants'
+import {MISSION} from "../data/data"
 import {motion} from "framer-motion"
 const Mission = () => {
   return (
@@ -32,7 +33,7 @@ const Mission = () => {
             whileInView={{opacity:1 , y:0}}
             viewport={{once:true}}
             transition={{duration:1 , delay:0.5}}
-            className='absolute max-w-lg tracking-tighter lg:text-3xl '>
+            className='absolute  max-w-lg tracking-tighter lg:text-3xl '>
                 {MISSION}
             </motion.p>    
         </div>

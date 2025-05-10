@@ -21,7 +21,7 @@ const Review = () => {
             </motion.p>
             <div className='flex items-center justify-center gap-6'>
 
-                  <img src={xaviour} width={80} height={80} alt={REVIEW.name} className='rounded-full border' />
+                  <img src={xaviour} width={80} height={80} alt={REVIEW.name} className='hover:scale-110 transition-all duration-500 ease-in-out  rounded-full border' />
                   <div className='tracking-tighter'>
                     <h6>{REVIEW.name}</h6>
                     <p className='text-sm text-neutral-500'>{REVIEW.profession} </p>
@@ -29,7 +29,7 @@ const Review = () => {
             </div>
         </div>
         <div className='mt-14 flex flex-col items-center justify-center gap-2 md:flex-row'>{[ customer1,customer2, customer3, customer4].map((customer, index) =>(
-            <img key={index} src={customer} alt="customer" className='h-[300px] w-[200px] rounded-br-3xl rounded-tl-3xl object-cover' />
+            <img key={index} src={customer} alt="customer" className='h-[300px] w-[200px] rounded-br-3xl transition-all duration-500 ease-in-out rounded-tl-3xl object-cover hover:scale-110' />
         ))}</div>
     </section>
   )
