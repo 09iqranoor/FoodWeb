@@ -168,33 +168,36 @@ const FoodData = [
       category: "Dinner",
       rating: 4.5,
     },
-    // {
-    //   id: 16,
-    //   img: "https://w7.pngwing.com/pngs/47/171/png-transparent-chinese-noodles-hot-and-sour-soup-risotto-lomi-lamian-slippery-mushrooms-risotto-dusi-soup-food-recipe-thumbnail.png",
-    //   name: " Crackers Platter",
-    //   price: 120,
-    //   desc: "Enjoy a variety of artisan cheeses, paired with an assortment of crispy crackers and complemented by fresh fruits and nuts. A delightful snack option for sharing or indulging in on your own.",
-    //   category: "Snacks",
-    //   rating: 4.3,
-    // },
-    // {
-    //   id: 17,
-    //   img: "https://w7.pngwing.com/pngs/204/32/png-transparent-crispy-fried-chicken-karaage-chicken-nugget-chicken-fingers-buffalo-wing-carrot-chilli-thumbnail.png",
-    //   name: "Crispy Chicken Wings",
-    //   price: 130,
-    //   desc: "Savor the satisfying crunch of crispy chicken wings seasoned to perfection. Choose your favorite sauce, from tangy BBQ to spicy buffalo, for a flavorful snacking experience.",
-    //   category: "Snacks",
-    //   rating: 4.4,
-    // },
-    // {
-    //   id: 18,
-    //   img: "https://w7.pngwing.com/pngs/816/163/png-transparent-grilled-skewered-meat-bakery-paneer-tikka-indian-cuisine-vegetarian-cuisine-cake-food-baking-cake-decorating-thumbnail.png",
-    //   name: "Paneer Tikka Skewers",
-    //   price: 130,
-    //   desc: "Enjoy succulent pieces of marinated paneer (Indian cottage cheese) skewered and grilled to perfection. Served with mint chutney, these paneer tikka skewers offer a flavorful and aromatic Indian snack experience.",
-    //   category: "Snacks",
-    //   rating: 4.9,
-    // },
+    {
+      id: 16,
+      img:dish10,
+      // img: "https://w7.pngwing.com/pngs/47/171/png-transparent-chinese-noodles-hot-and-sour-soup-risotto-lomi-lamian-slippery-mushrooms-risotto-dusi-soup-food-recipe-thumbnail.png",
+      name: " Crackers Platter",
+      price: 120,
+      desc: "Enjoy a variety of artisan cheeses, paired with an assortment of crispy crackers and complemented by fresh fruits and nuts. A delightful snack option for sharing or indulging in on your own.",
+      category: "Snacks",
+      rating: 4.3,
+    },
+    {
+      id: 17,
+      img:dish2,
+      // img: "https://w7.pngwing.com/pngs/204/32/png-transparent-crispy-fried-chicken-karaage-chicken-nugget-chicken-fingers-buffalo-wing-carrot-chilli-thumbnail.png",
+      name: "Crispy Chicken Wings",
+      price: 130,
+      desc: "Savor the satisfying crunch of crispy chicken wings seasoned to perfection. Choose your favorite sauce, from tangy BBQ to spicy buffalo, for a flavorful snacking experience.",
+      category: "Snacks",
+      rating: 4.4,
+    },
+    {
+      id: 18,
+      img:dish8,
+      // img: "https://w7.pngwing.com/pngs/816/163/png-transparent-grilled-skewered-meat-bakery-paneer-tikka-indian-cuisine-vegetarian-cuisine-cake-food-baking-cake-decorating-thumbnail.png",
+      name: "Paneer Tikka Skewers",
+      price: 130,
+      desc: "Enjoy succulent pieces of marinated paneer (Indian cottage cheese) skewered and grilled to perfection. Served with mint chutney, these paneer tikka skewers offer a flavorful and aromatic Indian snack experience.",
+      category: "Snacks",
+      rating: 4.9,
+    },
     // {
     //   id: 19,
     //   img: "https://w7.pngwing.com/pngs/356/675/png-transparent-falafel-lebanese-cuisine-take-out-mediterranean-cuisine-hummus-bed-miscellaneous-furniture-food-thumbnail.png",
@@ -213,6 +216,79 @@ const FoodData = [
     //   category: "Snacks",
     //   rating: 4.8,
     // },
+
+
+
+
+
+
+
+
+
+    {
+      id: 1,
+      // img: "https://img.freepik.com/free-photo/seafood-pizza_74190-5944.jpg?w=996&t=st=1693062328~exp=1693062928~hmac=53fd9ad496580db41c6ca8066510cd89c6b0a0389de8bb6b875a78a1eda09cb5",
+      img:dish1,
+      name: "Spaghetti Carbonara",
+      price: 150,
+      desc: "A delicious pizza topped with fresh onions for a delightful flavor combination. This pizza is perfect for onion lovers and offers a unique twist on the classic pizza experience. Enjoy the perfect blend of cheesy goodness and the sharp taste of onions in every bite. Whether you're sharing with friends or enjoying it all to yourself, this Onion Pizza is sure to satisfy your pizza cravings.",
+      category: "Lunch",
+      rating: 4.5,
+    },
+    {
+      id: 2,
+      // img: "https://w7.pngwing.com/pngs/339/55/png-transparent-pizza-margherita-italian-cuisine-hot-dog-pizza-cheese-pizza-thumbnail.png",
+      img:dish2,
+      name: "Chicken Tikka Masala",
+      price: 130,
+      desc: "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, basil leaves, and a drizzle of olive oil. Simple yet bursting with flavors, this Margherita Pizza is a timeless favorite that captures the essence of Italian cuisine.",
+      category: "Lunch",
+      rating: 4.2,
+    },
+    {
+      id: 3,
+      // img: "https://w7.pngwing.com/pngs/21/55/png-transparent-pepperoni-pizza-margarita-pizza-margherita-italian-cuisine-tomato-pizza-food-cheese-recipe-thumbnail.png",
+      img:dish3,
+      name: "Caprese Salad",
+      price: 160,
+      desc: "Indulge in the savory delight of this Pepperoni Pizza, loaded with slices of spicy pepperoni, melted cheese, and a tangy tomato sauce. A popular choice that's perfect for satisfying your pizza cravings.",
+      category: "Lunch",
+      rating: 4.6,
+    },
+    {
+      id: 4,
+      // img: "https://w7.pngwing.com/pngs/569/109/png-transparent-pizza-with-vegetables-and-mushroom-toppings-sicilian-pizza-california-style-pizza-pizza-margherita-vegetarian-cuisine-pizza-food-recipe-gourmet-thumbnail.png",
+      img:dish4,
+      name: "Sushi Roll",
+      price: 140,
+      desc: "Experience the earthy flavors of mushrooms combined with the freshness of spinach on this delightful pizza. Topped with a blend of cheeses, this Mushroom and Spinach Pizza offers a balanced and satisfying taste.",
+      category: "Lunch",
+      rating: 4.2,
+    },
+    {
+      id: 5,
+      // img: "https://w7.pngwing.com/pngs/843/171/png-transparent-pizza-73-restaurant-catupiry-chicken-as-food-pizza-baked-goods-food-recipe-thumbnail.png",
+      img:dish5,
+      name: "Chocolate Lava Cake",
+      price: 170,
+      desc: "Savor the smoky goodness of this BBQ Chicken Pizza, featuring tender pieces of chicken marinated in barbecue sauce, red onions, and a medley of cheeses. A fusion of flavors that's sure to delight your taste buds.",
+      category: "Lunch",
+      rating: 4.8,
+    },
+    {
+      id: 6,
+      // img: "https://w7.pngwing.com/pngs/133/54/png-transparent-pancakes-served-on-plate-banana-pancakes-scrambled-eggs-breakfast-ihop-pancake-food-recipe-eating-thumbnail.png",
+      img:dish6,
+      name: "Greek Salad",
+      price: 80,
+      desc: "Start your day with a stack of fluffy pancakes served with maple syrup and a dollop of butter. A timeless breakfast favorite that's sure to satisfy your morning cravings.",
+      category: "Breakfast",
+      rating: 4.5,
+    },
+    
+ 
+
+
   ];
 
 
